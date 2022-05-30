@@ -1,0 +1,28 @@
+.Auftraege{
+    
+    text-align: center;
+    background-color: rgba(76, 193, 174,0.75);
+    color: white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+h3{
+    padding-top: 30px;
+}
+
+.Phase{
+    margin: 0 300px 0 300px;
+    border: 1px solid #005d76;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 1.25rem;
+}
+
+.Projekt{
+    text-align: center;
+    background-color: rgba(0, 93, 118, 0.75);
+    color: white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}

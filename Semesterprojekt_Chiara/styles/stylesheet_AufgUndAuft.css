@@ -1,0 +1,27 @@
+.Aufgaben-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px , auto));
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    justify-content: space-around;
+}
+
+.Aufgaben-item{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(76, 193, 174,0.75);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.Auftrag, .AuftragUndAufgaben{
+    text-align: center;
+    background-color: rgba(76, 193, 174,0.75);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+

@@ -22,12 +22,11 @@ img{
     flex-wrap: wrap;
     background-color: rgba(76, 193, 174,0.75);
     padding: 20px;
-    border: 3px solid rgba(22, 54, 49, 0.75);
+    border: 3px solid rgba(26, 80, 72, 0.75);
     justify-content: center;
     align-items: flex-end;
     flex-shrink: 1;
    
-
   }
 
   .linkZuInhalt{

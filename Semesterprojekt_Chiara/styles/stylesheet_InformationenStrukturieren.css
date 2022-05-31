@@ -1,0 +1,25 @@
+.verschArten, .meineArt, .Hilfsmittel{
+    background-color: rgba(76, 193, 174,0.75);
+    color: white;
+    border-radius: 10px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.meineArt, .Hilfsmittel{
+    text-align: center;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+}
+
+h3{
+    padding-top: 30px;
+}
+
+img{
+    width: 50%;
+    height: auto;
+}

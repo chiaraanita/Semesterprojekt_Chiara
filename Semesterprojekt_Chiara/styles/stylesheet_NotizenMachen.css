@@ -1,0 +1,26 @@
+.Beispiele, .Tipps, .Hinterfragung{
+    background-color: rgba(76, 193, 174,0.75);
+    color: white;
+    border-radius: 10px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.Beispiele, .Hinterfragung{
+    text-align: center;
+}
+
+h3{
+    padding-top: 30px;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+}
+
+p{
+    text-align: center;
+}
+
+

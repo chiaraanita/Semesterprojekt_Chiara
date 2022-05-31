@@ -1,5 +1,27 @@
-.Auftraege{
-    
+.Auftrag-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px , auto));
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    justify-content: space-around;
+}
+
+.Auftrag{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgba(76, 193, 174,0.75);
+    color: white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.Phase{
+    font-size: 1.2rem;
+}
+
+.Projekt{
     text-align: center;
     background-color: rgba(76, 193, 174,0.75);
     color: white;
@@ -9,20 +31,4 @@
 
 h3{
     padding-top: 30px;
-}
-
-.Phase{
-    margin: 0 300px 0 300px;
-    border: 1px solid #005d76;
-    border-radius: 10px;
-    padding: 10px 20px 10px 20px;
-    font-size: 1.25rem;
-}
-
-.Projekt{
-    text-align: center;
-    background-color: rgba(0, 93, 118, 0.75);
-    color: white;
-    border-radius: 10px;
-    padding-bottom: 20px;
 }

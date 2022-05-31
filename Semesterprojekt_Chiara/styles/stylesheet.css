@@ -29,14 +29,13 @@ h2{
     color:white;
     margin-top: 50px;
     text-decoration: underline;
-   
 }
 
 h3{
   font-size: 1.5rem;
   margin-top: 100px;
   text-align: center;
-  color: white;
+  color: #005d76;
 }
 
 p, li, tr{
@@ -50,6 +49,7 @@ p, li, tr{
 }
 
 footer{
+ 
     background-color: rgba(76, 193, 174,0.75);
     color: white;
     padding: 20px;
@@ -112,6 +112,10 @@ footer{
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     transform: rotate(90deg)
+  }
+
+  figcaption{
+    color: #005d76;
   }
 
 

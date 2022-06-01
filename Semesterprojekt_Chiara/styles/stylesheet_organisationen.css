@@ -20,12 +20,13 @@ h3{
 }
 
 .Aufbauorganisation img{
-    width: 50%;
-    height: auto;
+    width: 100%;
+    
 }
 
 .Ablauforganisation img{
     
-    width: 50%;
-    height: 50%;
+    width: 100%;
+ 
 }
+

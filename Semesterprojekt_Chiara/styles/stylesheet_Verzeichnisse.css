@@ -1,7 +1,31 @@
-.Verzeichnis{
+.Literaturzeichnis {
     text-align: center;
     background-color: rgba(76, 193, 174,0.75);
     color: white;
     border-radius: 10px;
     padding: 20px;
 }
+
+.Abbildungsverzeichnis, .Tabellenverzeichnis{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(76, 193, 174,0.75);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.left{
+    width: 100%;
+    float: right;
+    text-align: end;
+    margin-right: 20px;
+}
+
+.right{
+    float: left;
+    width: 100%;
+    margin-left: 20px;
+}
+

@@ -26,6 +26,7 @@ h3{
     border-radius: 10px;
     border-radius: 10px;
     padding-bottom: 20px;
+    width: 100%;
 }
 
 caption{
@@ -36,6 +37,7 @@ caption{
 
 .planung{
     margin: 30px 0 30px 0;
+    width: 100%;
     border: 2px solid #005d76;
     border-radius: 10px;
 }
@@ -48,6 +50,5 @@ img{
     height: auto;
     border-radius: 10px;
 }
-
 
 

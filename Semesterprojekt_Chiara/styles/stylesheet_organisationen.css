@@ -1,22 +1,29 @@
 
 h3{
     margin-top: 30px;
-    
+    text-align: left;
 }
 
 .Aufbauorganisation, .Ablauforganisation{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(auto-fit, minmax(300px , auto));
+    grid-template-rows: auto;
     background-color: rgba(76, 193, 174,0.75);
-    color: white;
-    padding: 20px 20px 20px 20px;
+    padding: 20px ;
     border-radius: 10px;
-    border-radius: 10px;
-    margin: 50px;
+    margin-bottom: 20px;
+
 }
 
-.beschreibung1{
-    padding: 50px;
+.beschreibung, figure{
+ 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
 }
 
 .Aufbauorganisation img{

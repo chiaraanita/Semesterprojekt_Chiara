@@ -8,6 +8,10 @@ head{
     
 }
 
+html{
+  font-family: Campton-Book,sans-serif;
+}
+
 h1{
     text-align: center;
     color:rgb(76, 193, 174);
@@ -19,8 +23,6 @@ h1{
     overflow: hidden;
 
 }
-
-
 
 h2{
     padding: 50px;
@@ -59,6 +61,11 @@ footer{
     font-size: 1rem;
 }
 
+
+
+
+
+
   .dropdownbtn{
       font-size: 2rem;
       position: fixed;
@@ -69,8 +76,8 @@ footer{
       color: #005d76;
       margin-top: -45px;
       cursor: pointer;
-  }    
-
+  } 
+  
   .dropdown{
     position: relative;
     display: inline;
@@ -103,8 +110,6 @@ footer{
     display: block;
     height: 100%;
     background-color: #005d76;
-  
-
   }
 
   .dropdown:hover .dropdownbtn{
@@ -134,8 +139,6 @@ footer{
 
 
 
-
-
 figure figcaption {
   color: #005d76;
   text-align: center;
@@ -144,8 +147,34 @@ figure figcaption {
 }
 
 
-
   
 
-  
+@media (orientation: landscape) {
+
+  .landscape{
+    visibility: visible;
+  }
+
+  .portrait{
+    visibility: hidden;
+  }
+
+
+}
+
+@media (orientation: portrait) {
+  .landscape{
+    visibility: hidden;
+  }
+
+  .portrait{
+    visibility: visible;
+  }
+
+  .portrait .dropdownbtn{
+    margin-top: 0;
+  }
+
+
+}
 

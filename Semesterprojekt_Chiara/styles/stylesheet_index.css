@@ -17,7 +17,15 @@ img{
     justify-content: space-around;
 }
 
-
+.index-text{
+      text-align: center;
+      background-color: rgba(76, 193, 174,0.75);
+      color: white;
+      border-radius: 10px;
+      border-radius: 10px;
+      padding-bottom: 20px;  
+      padding-top: 20px;   
+}
 .aufgabe {
 
     display: flex;

@@ -12,7 +12,7 @@
 <body>
 
     <div class="head">
-        <div class="dropdown">
+        <div class="dropdown landscape">
             <button class="dropdownbtn"><i class="fa fa-bars"></i></button>
             <div class="dropdown-content">
               <a href="index.html#home" class="menu-item1">
@@ -30,34 +30,52 @@
         <h1>E-Portfolio von Chiara Steiner</h1>
     </div>
 
+    <div class="dropdown portrait">
+        <button class="dropdownbtn"><i class="fa fa-bars"></i></button>
+        <div class="dropdown-content">
+          <a href="index.html#home" class="menu-item1">
+            <div class="home-container">
+                <i class="fa fa-home"></i>
+                <p class="home">HOME</p>
+           </div>
+          </a>
+          <a  href="index.html#uebersicht" class="menu-item2">ÜBERSICHT</a>
+          <a href="index.html#reflexion" class="menu-item3">REFLEXION</a>
+          <a href="Verzeichnisse.html" class="menu-item">VERZEICHNISSE</a>
+          <a href="index.html#impressum" class="menu-item4">IMPRESSUM</a>
+        </div>
+    </div>
+
     <figure>
-        <img  src="pictures/Fotografie-Portfolio-Guide.jpg" alt="Portfolio" id="home">
-        <figcaption>Abbildung 1 - Titelbild</figcaption>
+        <img  src="pictures/Fotografie-Portfolio-Guide.jpg" alt="Portfolio" id="home"
+        sizes = "(max-width:720px) 100vw, (max-width: 1260px) 70vw"    
+        srcset= "pictures/Fotografie-Portfolio-Guide_s.jpg 300w, 
+            pictures/Fotografie-Portfolio-Guide_m.jpg 600w,
+            pictures/Fotografie-Portfolio-Guide_l.jpg 900w"
+     
+        >
+        <figcaption>Abbildung 1 - Titelbild (https://www.daskreativeuniversum.de)</figcaption>
     </figure>
-   
-    
-    
  
     
-    
     <h2>Was ist ein E-Portfolio?</h2>
-    <p class="index-text">
-        "Ein elektronisches Portfolio nutzt elektronische Technologien, die es dem Portfolio
-        <br>Entwickler erlauben, Portfolio-Dokumente, die aus verschiedenen Medientypen 
-        <br>(Audio, Video, Grafik, Text) bestehen, zu sammeln und zu organisieren."
-        <br> - Helen Barret</p>
+    <div class="index-text">   
+        <p>
+            "Ein elektronisches Portfolio nutzt elektronische Technologien, die es dem Portfolio
+            <br>Entwickler erlauben, Portfolio-Dokumente, die aus verschiedenen Medientypen 
+            <br>(Audio, Video, Grafik, Text) bestehen, zu sammeln und zu organisieren."
+            <br> - Helen Barret
 
-   
-          
-    <p class="index-text">
-        <br>
-        <br>
-        <br>In den vergangenen Wochen habe ich Übungen, Praxistransfers und 
-        <br>Reflexionsaufträge zum Thema «Aufträge im IT-Umfeld selbstständig bearbeiten»
-        <br>erstellt. Meine daraus enstandenen Ergebnisse habe ich in einem E-Portfolio
-        <br>abgebildet und als Webseite gestaltet. 
+    
+            <br>
+            <br>
+            <br>In den vergangenen Wochen habe ich Übungen, Praxistransfers und 
+            <br>Reflexionsaufträge zum Thema «Aufträge im IT-Umfeld selbstständig bearbeiten»
+            <br>erstellt. Meine daraus enstandenen Ergebnisse habe ich in einem E-Portfolio
+            <br>abgebildet und als Webseite gestaltet. 
 
-
+        </p>   
+    </div>
 
     <h2 id="uebersicht">Aufgabenübersicht</h2>    
     <div class="uebersicht" >
@@ -140,11 +158,11 @@
 
     </div>
     
-    <div id="reflexion">
-        <h2>Reflexion</h2>
-        <p class="index-text">
+    <h2>Reflexion</h2>
+    <div id="reflexion" class="index-text">
+        <p>
             Durch die Bearbeitung der in diesem E-Portfolio zu findenden Aufgaben habe ich viel Nützliches gelernt, um Aufträge
-            <br>im IT-Umfeld effektiv zu bearbeiten. Oft war mir bei Einführung in die verschiedenen Themen die jeweilige 
+            <br>im IT-Umfeld effizient zu bearbeiten. Oft war mir bei Einführung in die verschiedenen Themen die jeweilige 
             <br>Wichtigkeit davon nicht bewusst. So wurde mir Beispielsweise erst beim Bearbeiten der Aufgabe zur Aufbauorganisation 
             <br>klar, wie essentiell es für ein Unternehmen ist, eine funktionierende Aufbauorganisation zu haben.
             <br>

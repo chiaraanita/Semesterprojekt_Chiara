@@ -169,8 +169,12 @@ figure figcaption {
 
   .portrait{
     visibility: visible;
+    font-size: x-small;
   }
 
+  .home{
+    font-size: x-small;
+  }
   .portrait .dropdownbtn{
     margin-top: 0;
   }
